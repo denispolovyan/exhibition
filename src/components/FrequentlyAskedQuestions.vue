@@ -423,7 +423,6 @@ export default {
 .pictures-carousel {
   width: 500px;
   position: relative;
-  padding: 10px;
 }
 .pictures-carousel__slider {
   text-align: center;
@@ -471,6 +470,14 @@ export default {
     padding-bottom: 10px;
     border-bottom: 1px solid #fff;
   }
+  .pictures-carousel {
+    width: 100%;
+    position: relative;
+  }
+  .pictures-carousel__slider img {
+    max-width: 50vw;
+    max-height: 50vw;
+  }
 }
 @media (max-width: 650px) {
   .frequently-asked-questions__rows {
@@ -480,6 +487,16 @@ export default {
 @media (max-width: 550px) {
   .frequently-asked-questions__title p {
     font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .pictures-carousel {
+    width: 100%;
+    position: relative;
+  }
+  .pictures-carousel__slider img {
+    max-width: 50vw;
+    max-height: 50vw;
   }
 }
 </style>
