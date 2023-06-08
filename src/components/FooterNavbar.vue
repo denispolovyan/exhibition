@@ -10,6 +10,7 @@
         <div class="footer-navbar__medias">
           <div class="footer-navbar__media">
             <a
+              target="»_blank»"
               href="https://www.instagram.com/fasiya.art/?igshid=YmMyMTA2M2Y%3D"
             >
               <img

@@ -6,6 +6,75 @@
         <div
           class="frequently-asked-questions__row"
           :class="{
+            selectedQuestion: showList['seventh'],
+          }"
+        >
+          <div
+            class="frequently-asked-questions__question"
+            @click="showItem('seventh')"
+          >
+            <p v-if="$store.getters.getLanguage == 'en'">
+              Who are the organizers?
+            </p>
+            <p v-if="$store.getters.getLanguage == 'ua'">Хто організатори?</p>
+            <p v-if="$store.getters.getLanguage == 'de'">
+              Wer sind die Veranstalter??
+            </p>
+          </div>
+          <div
+            v-if="showList.seventh"
+            class="frequently-asked-question__answer"
+          >
+            <div class="pictures-carousel">
+              <swiper
+                :navigation="{
+                  prevEl: prev,
+                  nextEl: next,
+                }"
+                :modules="modules"
+                :slides-per-view="previewSlide"
+                :space-between="0"
+              >
+                <swiper-slide class="pictures-carousel__slider"
+                  ><img
+                    class="image"
+                    src="../assets/img/organizers/alex.jpg"
+                    alt="alex"
+                /></swiper-slide>
+                <swiper-slide class="pictures-carousel__slider"
+                  ><img
+                    class="image"
+                    src="../assets/img/organizers/sasha.jpg"
+                    alt="sasha"
+                /></swiper-slide>
+                <swiper-slide class="pictures-carousel__slider"
+                  ><img
+                    class="image"
+                    src="../assets/img/organizers/illia.jpg"
+                    alt="illia"
+                /></swiper-slide>
+                ...
+              </swiper>
+              <div ref="next" class="swiper-button-next">
+                <img
+                  class="arrow arrow-right"
+                  src="../assets/img/arrows/arrowRight.png"
+                  alt="arrow-right"
+                />
+              </div>
+              <div ref="prev" class="swiper-button-prev">
+                <img
+                  class="arrow arrow-left"
+                  src="../assets/img/arrows/arrowRight.png"
+                  alt="arrow-right"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="frequently-asked-questions__row"
+          :class="{
             selectedQuestion: showList['fifth'],
           }"
         >
@@ -238,7 +307,24 @@
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Navigation } from "swiper";
+import { ref } from "vue";
+
 export default {
+  setup() {
+    const prev = ref(null);
+    const next = ref(null);
+    return {
+      modules: [Navigation],
+      prev,
+      next,
+    };
+  },
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
   data: () => {
     return {
       selectedQuestion: "",
@@ -250,6 +336,7 @@ export default {
         fourth: false,
         fifth: false,
         sixth: false,
+        seventh: false,
       },
     };
   },
@@ -333,6 +420,33 @@ export default {
   color: red;
 }
 
+.pictures-carousel {
+  width: 500px;
+  position: relative;
+  padding: 10px;
+}
+.pictures-carousel__slider {
+  text-align: center;
+}
+.pictures-carousel__slider img {
+  object-fit: cover;
+  width: 370px;
+  height: 370px;
+}
+.arrow {
+  opacity: 0.7;
+  z-index: 50;
+  top: 50%;
+  width: 40px;
+  position: absolute;
+}
+.arrow-right {
+  right: 10px;
+}
+.arrow-left {
+  left: 10px;
+  transform: rotate(180deg);
+}
 @media (max-width: 850px) {
   .frequently-asked-questions__body {
     flex-direction: column;
