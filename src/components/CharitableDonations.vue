@@ -13,8 +13,8 @@
           </button></span
         >
         <span v-if="showPaymentInfo">
-          <p v-if="showPaymentInfo">DE93210501701004605661</p>
-          <p v-if="showPaymentInfo">
+          <p class="enable" v-if="showPaymentInfo">DE93210501701004605661</p>
+          <p class="enable" v-if="showPaymentInfo">
             Deutsch-Ukrainischer Verein in Schleswig-Holstein "Rozmova" e.V.
           </p></span
         >
@@ -85,7 +85,8 @@ export default {
   width: 100%;
   padding: 10px 0px;
 }
-.charitable-donations__donate button,p {
+.charitable-donations__donate button,
+p {
   background-color: #ff2400;
   transition-duration: 0.4s;
   color: #000;
@@ -105,5 +106,11 @@ export default {
 }
 .charitable-donations__united24 img {
   max-width: 200px;
+}
+.enable {
+  -ms-user-select: all;
+  -moz-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
 }
 </style>
