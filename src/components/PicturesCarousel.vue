@@ -13,44 +13,63 @@
         <swiper-slide class="pictures-carousel__slider"
           ><img
             class="image"
+            src="../assets/img/arts/photo_2023-06-27_20-45-58.jpg"
+            alt="painting"
+          />
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
+            src="../assets/img/arts/photo_2023-06-27_20-46-28.jpg"
+            alt="painting"
+          />
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
+            src="../assets/img/arts/photo_2023-06-27_20-47-06.jpg"
+            alt="painting"
+          />
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
+            src="../assets/img/arts/photo_2023-06-27_20-47-32.jpg"
+            alt="painting"
+          />
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
+            src="../assets/img/arts/photo_2023-06-27_20-48-01.jpg"
+            alt="painting"
+          />
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
+            src="../assets/img/arts/photo_2023-06-27_20-48-15.jpg"
+            alt="painting"
+          />
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
+            src="../assets/img/arts/photo_2023-06-27_20-48-24.jpg"
+            alt="painting"
+          />
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
             src="../assets/img/arts/photo_2023-05-10_16-39-01.jpg"
             alt="painting"
-        /></swiper-slide>
+          />
+        </swiper-slide>
         <swiper-slide class="pictures-carousel__slider"
           ><img
             class="image"
             src="../assets/img/arts/IMG_7991.jpg"
-            alt="painting"
-        /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider"
-          ><img
-            class="image"
-            src="../assets/img/arts/IMG_7992.png"
-            alt="painting"
-        /></swiper-slide>
-
-        <swiper-slide class="pictures-carousel__slider"
-          ><img
-            class="image"
-            src="../assets/img/arts/photo_2023-05-10_16-39-02.jpg"
-            alt="painting"
-        /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider"
-          ><img
-            class="image"
-            src="../assets/img/arts/IMG_7993.png"
-            alt="painting"
-        /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider"
-          ><img
-            class="image"
-            src="../assets/img/arts/IMG_7994.png"
-            alt="painting"
-        /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider"
-          ><img
-            class="image"
-            src="../assets/img/arts/Ratushny-1.png"
             alt="painting"
         /></swiper-slide>
         <swiper-slide class="pictures-carousel__slider"
@@ -62,19 +81,7 @@
         <swiper-slide class="pictures-carousel__slider">
           <img
             class="image"
-            src="../assets/img/arts/IMG_8001.png"
-            alt="painting"
-        /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider">
-          <img
-            class="image"
             src="../assets/img/arts/IMG_7996.jpg"
-            alt="painting"
-        /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider">
-          <img
-            class="image"
-            src="../assets/img/arts/IMG_5788.png"
             alt="painting"
         /></swiper-slide>
         <swiper-slide class="pictures-carousel__slider">
@@ -86,19 +93,7 @@
         <swiper-slide class="pictures-carousel__slider">
           <img
             class="image"
-            src="../assets/img/arts/IMG_5779.png"
-            alt="painting"
-        /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider">
-          <img
-            class="image"
             src="../assets/img/arts//IMG_5777.png"
-            alt="painting"
-        /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider">
-          <img
-            class="image"
-            src="../assets/img/arts/IMG_5799.png"
             alt="painting"
         /></swiper-slide>
         <swiper-slide class="pictures-carousel__slider">
@@ -113,49 +108,199 @@
             src="../assets/img/arts/IMG_5796.png"
             alt="painting"
         /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider">
-          <img
-            class="image"
-            src="../assets/img/arts/IMG_5790.png"
-            alt="painting"
-        /></swiper-slide>
+
         <swiper-slide class="pictures-carousel__slider">
           <img
             class="image"
             src="../assets/img/arts/IMG_5810.png"
             alt="painting"
         /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider">
-          <img
-            class="image"
-            src="../assets/img/arts/IMG_5809.png"
-            alt="painting"
-        /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider">
-          <img
-            class="image"
-            src="../assets/img/arts/IMG_5808.png"
-            alt="painting"
-        /></swiper-slide>
+
         <swiper-slide class="pictures-carousel__slider">
           <img
             class="image"
             src="../assets/img/arts/IMG_5801.png"
             alt="painting"
         /></swiper-slide>
-        <swiper-slide class="pictures-carousel__slider">
-          <img
-            class="image"
-            src="../assets/img/arts/IMG_5822.png"
-            alt="painting"
-        /></swiper-slide>
+
         <swiper-slide class="pictures-carousel__slider">
           <img
             class="image"
             src="../assets/img/arts/IMG_5816.png"
             alt="painting"
         /></swiper-slide>
-
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
+            src="../assets/img/arts/IMG_6019.jpg"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Олена Аль-Асаад</div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
+            src="../assets/img/arts/IMG_6020.jpg"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Олена Аль-Асаад</div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider"
+          ><img
+            class="image"
+            src="../assets/img/arts/IMG_6021.jpg"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Олена Аль-Асаад</div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_5788.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Олена Аль-Асаад</div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6028.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Ольга Бондар</div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6027.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Ольга Бондар</div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6026.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Ольга Бондар</div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6023.jpg"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Лаура Аль-Асаад</div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6025.jpg"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Лаура Аль-Асаад</div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_5790.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">Лаура Аль-Асаад</div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6034.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">
+              Вікторія Лихольот / Victoria Likhlyot
+            </div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6029.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">
+              Вікторія Лихольот / Victoria Likhlyot
+            </div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6030.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">
+              Вікторія Лихольот / Victoria Likhlyot
+            </div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6031.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">
+              Вікторія Лихольот / Victoria Likhlyot
+            </div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6032.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">
+              Вікторія Лихольот / Victoria Likhlyot
+            </div>
+          </div></swiper-slide
+        >
+        <swiper-slide class="pictures-carousel__slider">
+          <img
+            class="image"
+            src="../assets/img/arts/IMG_6033.png"
+            alt="painting"
+          />
+          <div class="swiper-author">
+            <div class="swiper-author__text">
+              Вікторія Лихольот / Victoria Likhlyot
+            </div>
+          </div></swiper-slide
+        >
         ...
       </swiper>
       <div ref="next" class="swiper-button-next">
@@ -231,6 +376,7 @@ export default {
   padding: 10px;
 }
 .pictures-carousel__slider {
+  position: relative;
   text-align: center;
 }
 .pictures-carousel__slider img {
@@ -241,6 +387,18 @@ export default {
 .image {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 7px;
+}
+.swiper-author {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  opacity: 0.5;
+}
+.swiper-author__text {
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: 700;
 }
 
 @media (min-width: 2000px) {

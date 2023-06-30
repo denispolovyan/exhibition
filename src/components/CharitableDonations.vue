@@ -4,16 +4,34 @@
       <div class="charitable-donatuons__input">
         <input placeholder="10, 20, 30, 50$" type="text" />
       </div>
-      <div class="charitable-donations__donate">
-        <a target="»_blank»" href="https://savelife.in.ua/DONATE/"
+      <div class="charitable-donations__donate" @click="showPaymentInfo = true">
+        <span v-if="!showPaymentInfo"
           ><button v-if="$store.getters.getLanguage == 'ua'">Задонатити</button>
           <button v-if="$store.getters.getLanguage == 'en'">Donate</button>
-          <button v-if="$store.getters.getLanguage == 'de'">Spenden</button></a
+          <button v-if="$store.getters.getLanguage == 'de'">
+            Spenden
+          </button></span
+        >
+        <span v-if="showPaymentInfo">
+          <p v-if="showPaymentInfo">DE93210501701004605661</p>
+          <p v-if="showPaymentInfo">
+            Deutsch-Ukrainischer Verein in Schleswig-Holstein "Rozmova" e.V.
+          </p></span
         >
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data: () => {
+    return {
+      showPaymentInfo: false,
+    };
+  },
+};
+</script>
 
 <style scoped>
 .charitable-donations {
@@ -61,7 +79,13 @@
   background-color: #fff;
   color: #ff2400;
 }
-.charitable-donations__donate button {
+.charitable-donations__donate p {
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px 0px;
+}
+.charitable-donations__donate button,p {
   background-color: #ff2400;
   transition-duration: 0.4s;
   color: #000;
