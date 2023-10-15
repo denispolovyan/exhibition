@@ -23,9 +23,12 @@
       </div>
       <div class="footer-navbar__column footer-navbar__column_mails">
         <div class="footer-navbar__mails">
-          <div class="footer-navbar__mail">fasiyaart@gmail.com</div>
+          <div>
+            <a class="footer-navbar__mail" href="mailto:fasiyaart@gmail.com"
+              >fasiyaart@gmail.com</a
+            >
+          </div>
           <div class="footer-navbar__mail">+49 175 411 1576</div>
-          <div class="footer-navbar__mail">+38 066 576 7665</div>
         </div>
       </div>
       <div class="footer-navbar__column footer-navbar__column_donate">
@@ -90,6 +93,7 @@ export default {
 }
 .footer-navbar__mail {
   font-size: 20px;
+  color: #fff;
 }
 .footer-navbar__mail:hover {
   transition-duration: 0.4s;

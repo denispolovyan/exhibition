@@ -216,7 +216,7 @@
             </p>
           </div>
         </div>
-        <div
+        <!-- <div
           class="frequently-asked-questions__row"
           :class="{
             selectedQuestion: showList['fourth'],
@@ -242,8 +242,8 @@
               <br />Sokratesplatz 1 <br />24149 Kiel
             </p>
           </div>
-        </div>
-        <div
+        </div> -->
+        <!-- <div
           class="frequently-asked-questions__row"
           :class="{
             selectedQuestion: showList['sixth'],
@@ -300,7 +300,7 @@
               with further instructions on how to complete your purchase.
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

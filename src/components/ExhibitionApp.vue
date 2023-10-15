@@ -2,13 +2,13 @@
   <div class="exhibition-app">
     <div class="exhibition-app__body">
       <header-navbar />
-      <red-line/>
-      <current-event />
+      <red-line />
+      <front-page/>
       <white-line />
       <about-exhibition />
       <white-line />
       <fasiya-goal />
-      <pictures-carousel />
+      <the-projects />
       <charitable-donations />
       <white-line />
       <frequently-asked-questions />
@@ -20,28 +20,28 @@
 
 <script>
 import HeaderNavbar from "./HeaderNavbar";
-import CurrentEvent from "./CurrentEvent";
 import AboutExhibition from "./AboutExhibition";
-import PicturesCarousel from "./PicturesCarousel";
 import FooterNavbar from "./FooterNavbar";
 import FasiyaGoal from "./FasiyaGoal";
 import FrequentlyAskedQuestions from "./FrequentlyAskedQuestions";
 import CharitableDonations from "./CharitableDonations";
 import RedLine from "./RedLine";
 import WhiteLine from "./WhiteLine";
+import TheProjects from "./TheProjects";
+import FrontPage from "./FrontPage";
 
 export default {
   components: {
     HeaderNavbar,
-    CurrentEvent,
     AboutExhibition,
-    PicturesCarousel,
     FooterNavbar,
     FasiyaGoal,
     FrequentlyAskedQuestions,
-     CharitableDonations,
+    CharitableDonations,
     RedLine,
     WhiteLine,
+    TheProjects,
+    FrontPage,
   },
 };
 </script>
